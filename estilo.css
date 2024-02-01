@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: burlywood;
+    background-color:pink;
     font-family: calibry;
     font-size: 18px;
     color:black ;
 }
 
 .topo {
-    background-color:bisque;
+    background-color:white;
     padding: 30px;
 }
 
@@ -20,17 +20,25 @@ body {
     text-decoration: none;
     padding: 10px;
     display: inline-block;
+    border-radius: 10px;
 }
+
+.botao:hover{
+    background-color: palevioletred;
+}
+
+
  
 .materia{
-    background-color:bisque;
+    background-color:whitesmoke;
     padding: 30px;
     margin-bottom: 10px;
-    width: 800px;
+    width: 600px;
     text-align: center;
     margin-left: automatico;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 }
 
 .materia img{
@@ -44,12 +52,12 @@ body {
 }
 
 .topo a{
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
 .rodape{
-    background-color: bisque;
+    background-color: white;
     color: black;
     padding: 20px;
     text-align: center;
@@ -72,7 +80,7 @@ main{
 }
 
 .menu a:hover{
-    color: bisque;
+    color: white;
 }
 
 .navegacao {
@@ -90,6 +98,12 @@ main{
     margin-bottom: 30px;
     font-size: 25px;
     color: black;
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
+    gap: 5px;
 }
 
 
