@@ -74,7 +74,7 @@ main{
 .menu{
     display: flex;
     list-style:none;
-    margin-left: 1200px;
+    margin-left: 1400px;
 }
 
 .menu li{
@@ -136,12 +136,12 @@ main{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 textarea.campo{
     height: 150px;
     padding: 10px;
     font-family:calibri;
-    margin-bottom: 30px;
 }
 
 .mapa{
