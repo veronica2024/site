@@ -141,11 +141,11 @@ textarea.campo{
     height: 150px;
     padding: 10px;
     font-family:calibri;
+    margin-bottom: 30px;
 }
 
 .mapa{
     width: 100%;
-    margin-bottom: 60px;
 }
 
 
