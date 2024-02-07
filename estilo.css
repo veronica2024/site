@@ -13,6 +13,7 @@ body {
 .topo {
     background-color:white;
     padding: 30px;
+    font-size: 14px;
 }
 
 .botao {
@@ -36,7 +37,7 @@ body {
     background-color:whitesmoke;
     padding: 30px;
     margin-bottom: 10px;
-    width: 600px;
+    width: 32 0px;
     text-align: center;
     margin-left: automatico;
     margin-left: auto;
@@ -74,7 +75,7 @@ main{
 .menu{
     display: flex;
     list-style:none;
-    margin-left: 1400px;
+    margin-left: auto;
 }
 
 .menu li{
@@ -105,7 +106,7 @@ main{
 
 .grade{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
     gap: 5px;
 }
 
@@ -133,7 +134,7 @@ main{
 .contato{
     background-color:white ;
     padding: 30px;
-    width: 600px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
