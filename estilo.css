@@ -35,33 +35,31 @@ body {
  
 .materia{
     background-color:whitesmoke;
-    padding: 30px;
-    margin-bottom: 10px;
-    width: 32 0px;
-    text-align: center;
-    margin-left: automatico;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
+    padding:30px;
+    margin-bottom:10px;
+    width:320px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .materia img{
-    width: 100%;
-    margin-bottom: 20px;
+    width:100%;
+    margin-bottom:20px;
 }
 
 .materia h1{
-    margin-bottom: 10px;
-    font-size: 30px;
+    margin-bottom:20px;
+    font-size:25px;
 }
 
 .topo a{
-    color: red;
-    text-decoration: none;
+    color:red;
+    text-decoration:none;
 }
 
 .rodape{
-    background-color: white;
+    background-color:white;
     color: black;
     padding: 20px;
     text-align: center;
@@ -94,13 +92,13 @@ main{
 .titulo{
     text-align: center;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 34px;
 }
 
 .texto{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 
@@ -148,6 +146,18 @@ textarea.campo{
 .mapa{
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .topo a {
+        font-size:18px;
+    }
+
+    .materia h1 {
+        font-size: 30px;
+    }
+}
+
+
 
 
 
