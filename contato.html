@@ -3,7 +3,7 @@
 <head>
     <title>meu site saúde alimentarr</title> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=1.0">
     <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
@@ -11,7 +11,7 @@
 <header class="topo">
 
 <nav class="navegacao">
-<a href="index.html"><img src="imagem7.jpg" alt="logo" height="100" width="100"></a>
+<a href="index.html"><img src="imagem7.jpg" alt="logo" height="50" width="50"></a>
 <ul class="menu">
     <li><a href="index.hmtl">Home</a></li>
     <li><a href="contato.html">Contato</a></li>
@@ -23,27 +23,20 @@
 <main>
 
 <h1 class="titulo">contato</h1>
-<p class="texto">A composição exata de uma dieta diversificada, equilibrada e saudável varia de acordo com as características individuais de cada pessoa (idade, sexo, estilo de vida e grau de atividade física), contexto cultural, alimentos disponíveis localmente e hábitos alimentares. No entanto, os princípios básicos do que constitui uma alimentação saudável permanecem os mesmos para todas e todos.
-Algumas dicas simples para manter a regularidade intestinal:
-
-    Tenha uma dieta balanceada
-    Beba bastante líquido
-    Faça exercícios físicos
-    Não Deixe de ir ao banheiro quando sentir vontade.
-    Aumentar o consumo de fibras</p>
+<p class="texto">Os campos com * são de preenchimento obrigatorio!</p>
 
     <!--corpo do formulario-->
     <form class="contato">
         <!--campo de formulario-->
         <!--campo nome-->
         <label class="rotulo">
-        Nome
-        <input type="text" class="campo">
+        Nome*
+        <input required type="text" class="campo" required>
     </label>      
     <!--campo Email-->
     <label class="rotulo">
-        E-mail
-        <input type="email" class="campo">
+        E-mail*
+        <input type="email" class="campo" required>
     </label>      
      <!--campo Assunto-->
      <label class="rotulo">
@@ -57,8 +50,8 @@ Algumas dicas simples para manter a regularidade intestinal:
     
     <!--campo mensagem-->
     <label class="rotulo">
-        mensagem
-        <textarea class="campo"></textarea>
+        mensagem*
+        <textarea class="campo" required></textarea>
     </label>
 
     <!--botao enviar-->
